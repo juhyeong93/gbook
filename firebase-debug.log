@@ -1,0 +1,59 @@
+[debug] [2019-02-12T05:25:12.322Z] ----------------------------------------------------------------------
+[debug] [2019-02-12T05:25:12.325Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\juhyeong.lee\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-12T05:25:12.325Z] CLI Version:   6.3.1
+[debug] [2019-02-12T05:25:12.325Z] Platform:      win32
+[debug] [2019-02-12T05:25:12.325Z] Node Version:  v10.15.1
+[debug] [2019-02-12T05:25:12.327Z] Time:          Tue Feb 12 2019 14:25:12 GMT+0900 (GMT+09:00)
+[debug] [2019-02-12T05:25:12.327Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-12T05:25:12.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-12T05:25:12.340Z] > authorizing via signed-in user
+[debug] [2019-02-12T05:25:12.340Z] [iam] checking project juhyeong-gbook for permissions ["firebase.projects.get"]
+[debug] [2019-02-12T05:25:12.342Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-12T05:25:12.343Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-12T05:25:12.754Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-12T05:25:12.760Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/juhyeong-gbook:testIamPermissions  
+
+[debug] [2019-02-12T05:25:13.931Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-12T05:25:13.931Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/juhyeong-gbook  
+ 
+[debug] [2019-02-12T05:25:15.078Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\juhyeong\gbook'...
+[info] 
+[debug] [2019-02-12T05:25:15.081Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/449945913939/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-12T05:25:15.990Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-02-12T07:46:53.320Z] ----------------------------------------------------------------------
+[debug] [2019-02-12T07:46:53.323Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\juhyeong.lee\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-12T07:46:53.323Z] CLI Version:   6.3.1
+[debug] [2019-02-12T07:46:53.323Z] Platform:      win32
+[debug] [2019-02-12T07:46:53.323Z] Node Version:  v10.15.1
+[debug] [2019-02-12T07:46:53.326Z] Time:          Tue Feb 12 2019 16:46:53 GMT+0900 (GMT+09:00)
+[debug] [2019-02-12T07:46:53.326Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-12T07:46:53.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-12T07:46:53.337Z] > authorizing via signed-in user
+[debug] [2019-02-12T07:46:53.337Z] [iam] checking project juhyeong-gbook for permissions ["firebase.projects.get"]
+[debug] [2019-02-12T07:46:53.338Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-12T07:46:53.339Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-12T07:46:53.663Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-12T07:46:53.670Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/juhyeong-gbook:testIamPermissions  
+
+[debug] [2019-02-12T07:46:54.863Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-12T07:46:54.864Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/juhyeong-gbook  
+ 
+[debug] [2019-02-12T07:46:56.032Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\juhyeong\gbook'...
+[info] 
+[debug] [2019-02-12T07:46:56.037Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/449945913939/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-12T07:46:56.734Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5005
